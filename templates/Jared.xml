@@ -1,0 +1,50 @@
+<templateSet group="Jared">
+  <template name="loggy" value="console.log('$FILE$::$FUNCTION$() (line $LINE$) $PARAM_TEXT$: \n', $PARAM$);$END$" description="smart console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="FUNCTION" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_TEXT" expression="" defaultValue="PARAM" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="warny" value="console.warn($LINE$);$END$" description="console.warn(line #)" toReformat="false" toShortenFQNames="true">
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="curly" value="{$SELECTION$}$END$" description="Surround selection with {}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="brackets" value="[$SELECTION$]$END$" description="Surround selection with []" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="single quote" value="'$SELECTION$'$END$" description="Surround selection with '" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="double quote" value="&quot;$SELECTION$&quot;$END$" description="Surround selection with &quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="parentheses" value="($SELECTION$)$END$" description="Surround selection with ()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ticks" value="`$SELECTION$`$END$" description="Surround selection with ``" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
