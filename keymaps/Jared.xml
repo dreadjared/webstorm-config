@@ -348,6 +348,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="o" />
   </action>
+  <action id="NewTypeScriptFile">
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="t" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
   <action id="NextSplitter">
