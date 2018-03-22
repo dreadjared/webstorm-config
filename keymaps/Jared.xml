@@ -73,6 +73,7 @@
   <action id="Compare.LastVersion">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
   </action>
+  <action id="ContextHelp" />
   <action id="DartTypeHierarchy.BaseOnThisType" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DumpLookupElementWeights" />
