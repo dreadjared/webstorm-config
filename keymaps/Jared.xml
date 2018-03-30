@@ -275,6 +275,10 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
   </action>
