@@ -73,6 +73,7 @@
   <action id="Compare.LastVersion">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
   </action>
+  <action id="ContextHelp" />
   <action id="DartTypeHierarchy.BaseOnThisType" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DumpLookupElementWeights" />
@@ -272,6 +273,11 @@
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
