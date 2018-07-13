@@ -1,11 +1,14 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.25" />
   <metaInfo>
     <property name="created">2017-11-27T08:48:29</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-11-28T12:09:47</property>
+    <property name="modified">2018-07-13T15:22:57</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="FILESTATUS_NOT_CHANGED" value="cccccc" />
   </colors>
