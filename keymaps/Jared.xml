@@ -5,6 +5,12 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateFlowToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt s" />
@@ -51,6 +57,12 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -72,6 +84,7 @@
   <action id="EditorHungryBackSpace">
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="alt h" />
@@ -193,6 +206,7 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
   </action>
+  <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
   </action>
@@ -220,6 +234,7 @@
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="Hg.Commit.And.Push.Executor" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="shift alt escape" />
@@ -298,6 +313,9 @@
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
   </action>
+  <action id="SurroundWithLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -326,7 +344,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
   <action id="Vcs.Push">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="i" />
   </action>
