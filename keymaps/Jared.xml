@@ -1,4 +1,8 @@
 <keymap version="1" name="Jared" parent="Default for XWin">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -48,6 +52,9 @@
   </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="DumpLookupElementWeights" />
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
