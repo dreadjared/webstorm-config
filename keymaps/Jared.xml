@@ -25,7 +25,9 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
-  <action id="CheckinProject" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" />
   </action>
@@ -33,6 +35,7 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CodeInspection.OnEditor" />
   <action id="Compare.LastVersion">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
   </action>
@@ -81,21 +84,28 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt i" />
+  </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="alt w" />
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
-    <keyboard-shortcut first-keystroke="shift alt w" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl left" />
@@ -103,7 +113,7 @@
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
-    <keyboard-shortcut first-keystroke="shift alt b" />
+    <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -133,9 +143,17 @@
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl end" />
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt y" />
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
@@ -212,6 +230,7 @@
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="n" />
   </action>
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
@@ -225,19 +244,37 @@
   <action id="MoveStatementUp" />
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="m" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="d" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
   </action>
+  <action id="NewJavaScriptFile">
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="j" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="o" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="shift ctrl alt numpad0" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
-    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="semicolon" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="l" />
+  </action>
+  <action id="OverrideMethods" />
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="h" />
+  </action>
   <action id="PublishGroup.UploadTo" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
@@ -281,6 +318,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
+  <action id="Tool_External Tools_Prettier">
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="p" />
+  </action>
   <action id="UnselectPreviousOccurrence" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
@@ -308,5 +348,6 @@
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="tasks.close" />
+  <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
 </keymap>
