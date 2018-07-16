@@ -15,6 +15,7 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="j" />
   </action>
@@ -172,6 +173,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl caps_lock" />
   </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt k" />
@@ -304,7 +308,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift alt e" />
