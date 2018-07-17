@@ -23,6 +23,12 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="j" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+  </action>
+  <action id="CallHierarchy" />
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="a" />
@@ -36,6 +42,7 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
+  <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
   </action>
@@ -124,6 +131,8 @@
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt m" />
@@ -218,6 +227,11 @@
     <keyboard-shortcut first-keystroke="ctrl f7" />
     <keyboard-shortcut first-keystroke="shift ctrl alt w" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
   </action>
@@ -292,6 +306,7 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
   <action id="OverrideMethods" />
   <action id="PreviousEditorTab" />
@@ -299,6 +314,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="PublishGroup.UploadTo" />
   <action id="QuickJavaDoc">
@@ -309,6 +325,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl alt r" />
