@@ -49,6 +49,9 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" />
   </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -391,6 +394,7 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
