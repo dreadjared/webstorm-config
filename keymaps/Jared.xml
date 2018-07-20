@@ -7,7 +7,7 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="$Undo">
-    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -67,6 +67,9 @@
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
@@ -260,6 +263,7 @@
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="Hg.Commit.And.Push.Executor" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
