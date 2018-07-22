@@ -333,6 +333,10 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="ReformatCode" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="p" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl alt r" />
@@ -373,9 +377,6 @@
     <keyboard-shortcut first-keystroke="ctrl tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="alt tab" />
-  </action>
-  <action id="Tool_External Tools_Prettier">
-    <keyboard-shortcut first-keystroke="alt semicolon" second-keystroke="p" />
   </action>
   <action id="UnselectPreviousOccurrence" />
   <action id="UnsplitAll">
