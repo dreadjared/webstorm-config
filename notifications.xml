@@ -2,6 +2,6 @@
   <component name="NotificationConfiguration">
     <notification groupId="Branch Context group" displayType="NONE" />
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
-    <notification groupId="MATERIAL_THEME_UPDATE" />
+    <notification groupId="MATERIAL_THEME_UPDATE" displayType="NONE" />
   </component>
 </application>
