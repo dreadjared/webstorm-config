@@ -2,8 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="GoogleButton.js" type="JavaScript" />
-      <mapping ext="djmd" type="Markdown" />
       <mapping ext="mdx" type="Markdown" />
+      <mapping ext="djmd" type="Markdown" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
