@@ -17,34 +17,4 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="curly" value="{$SELECTION$}$END$" description="Surround selection with {}" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="brackets" value="[$SELECTION$]$END$" description="Surround selection with []" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="single quote" value="'$SELECTION$'$END$" description="Surround selection with '" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="double quote" value="&quot;$SELECTION$&quot;$END$" description="Surround selection with &quot;" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="parentheses" value="($SELECTION$)$END$" description="Surround selection with ()" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="ticks" value="`$SELECTION$`$END$" description="Surround selection with ``" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
 </templateSet>
