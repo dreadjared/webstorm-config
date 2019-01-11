@@ -8,5 +8,11 @@
       <action id="EditorDown" />
       <action id="GotoAction" />
     </macro>
+    <macro name="select line down">
+      <action id="EditorUp" />
+      <action id="EditorLineEnd" />
+      <action id="EditorRight" />
+      <action id="EditorDownWithSelection" />
+    </macro>
   </component>
 </application>
