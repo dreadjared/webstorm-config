@@ -20,7 +20,7 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*test.js</mask>
-    <mask>*.js</mask>
     <mask>*.test.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>
