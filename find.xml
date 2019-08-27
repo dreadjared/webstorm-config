@@ -16,5 +16,7 @@
     <mask>*test.js</mask>
     <mask>*.js</mask>
     <mask>*.test.js</mask>
+    <mask>packages.json</mask>
+    <mask>package.json</mask>
   </component>
 </application>
